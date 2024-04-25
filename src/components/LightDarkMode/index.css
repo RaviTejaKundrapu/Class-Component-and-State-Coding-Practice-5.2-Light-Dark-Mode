@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  border: 1px solid black;
+  height: 30%;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Dark-mode {
+  background-color: black;
+  color: white;
+}
+.Light-mode {
+  background-color: white;
+  color: black;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+}
