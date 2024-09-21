@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class LightDarkMode extends Component {
-  state = {btnName: 'Light Mode', bgClass: 'Dark-mode'}
+  state = {btnName: 'Light Mode', bgClass: 'Dark-mode'} // initially these are taken
 
   toogleBgAndBtnName = () => {
     this.setState(prevState => ({
